@@ -1,0 +1,177 @@
+.nav-menu-header { display:none; color:#000; font-family: "Arial";  font-size:22px; font-weight: bold; cursor: pointer; padding: 10px 0; width: 100%; float: left;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.nav-menu-header { background: url('../images/nav_menu.png') right center no-repeat; }
+
+.menu-mobile { width:100%; float:left; display: none;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 15px;}
+
+@media (min-width: 768px) and (max-width:1024px)
+{
+    
+}
+@media (min-width: 1001px) and (max-width:1049px)
+{
+     .prawo .menu { width: 100%; }
+     .prawo .menu a {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; }
+     .facebook { width: 100% !important; }
+     .facebook iframe { width: 100% !important; }
+}
+
+@media (min-width: 768px) and (max-width:1000px)
+{
+     img { max-width: 100%; height: auto; }
+     iframe { max-width: 100% !important; display: table; margin: auto; }
+     .facebook { width: 100% !important; }
+     .facebook iframe { height:220px !important; }
+     
+     .header { height: auto; }
+     .header .content { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+     .header .content .logo { float: left; }
+     .header .content .nazwa { float: left; width: calc(100% - 134px); margin-top: 50px; }
+     .header .content .nazwa table { height: auto !important; }
+     .header .content .nazwa table td { padding: 0px !important; text-align: center !important; }
+     
+    .header2 .content { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 30px;}
+    .header2 .content .nazwa { text-align: center; width: 100%; padding-top: 15px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    .header2 .content .logo { display: none; }
+    
+    .header3 { width: 100%; }
+    .header3 .content { width:100%; float: left; }
+    .header3 table { width: 100%; }
+    .header3 table td:first-child { width: 119px !important; padding: 0px !important; }
+    .header3 img { padding: 0 15px !important;  }
+
+    .header3 #on_zdjecia2 img { width: calc(20% - 30px); padding: 0 !important; margin: 15px !important; display: block; float: left;  }
+    
+     .kontener { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; padding-top: 0px; }
+     .lewo { width:100% !important; padding-left: 0px !important; overflow: hidden; }
+     
+     .prawo { width:100% !important; padding-left: 0px !important; margin-left: 0px !important; }
+     .menu2 { width: 100%; width: 100%; background: #fff; margin-top: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     .menu2 a {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; }
+     
+     .tagi { width: 100% !important; }
+     
+     .stopka { width: 100% !important; text-align: center; }
+     
+     .formularz .b1 { width: 100%; }
+     .formularz .b2 { width: 100%; margin: 0px;  }
+     .formularz .pozycja { width: 100%; }
+     .formularz .input { width: 100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 35px; }
+     .formularz .textarea { width: 100% !important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; min-width: 1px; max-width: 100%; }
+     .formularz .alert { width: 100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     #regulaminek { width:100% !important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     
+     #on_zdjecia table { display: block; width: 100%; float: left; text-align: center; }
+     #on_zdjecia table tr { display: inline; }
+     #on_zdjecia table td { display: inline-block; width: 25% !important; height: auto !important; }
+     #on_zdjecia .kolo_a { width: auto; height: auto; }
+     
+     .gallery-box { width: 100%; float: left; display: block; }
+     .gallery-box tr { display: block; width: 100%; float: left; }
+     .gallery-box tbody { display: block; width: 100%; float: left; }
+     .gallery-box tr > td { display: block; width: 33% !important; float: left;  }
+     .gallery-box table { margin: auto !important; width: 100% !important; display: block; float: left; height: auto !important; margin-bottom: 20px !important;}
+     .gallery-box table tr { display: block; width: 100%; float: left; }
+     .gallery-box table tr > td { display: block; width: 100% !important; float: left; height: auto !important; }
+     .gallery-box .kolo_a { width: auto; height: auto; margin: 0px; }
+     .gallery-box .kolo_a img { margin: 0px; border-radius: 50%; }
+     
+     .lb-outerContainer { width:100% !important; height: auto !important; background: #fff; min-height: 60px; }
+     #lightboxOverlay { width:100% !important; }
+     .lb-dataContainer { width:100% !important; }
+}
+
+@media (min-width: 320px) and (max-width:767px)
+{
+     img { max-width: 100%; height: auto; }
+     iframe { max-width: 100% !important; display: table; margin: auto; }
+     .facebook { width: 100% !important; }
+     .facebook iframe { height:220px !important; }
+     .header { height: auto; }
+     .header .content { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+     .header .content .logo { width: 100%; text-align: center; padding-bottom: 0px; }
+     .header .content .nazwa { text-align: center; width: 100%; height: auto; }
+     .header .content .nazwa table { height: auto !important; }
+     .header .content .nazwa table td { padding: 0px !important; text-align: center !important; }
+     
+    .header2 .content { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 30px;}
+    .header2 .content .nazwa { text-align: center; width: 100%; padding-top: 15px;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    .header2 .content .logo { display: none; }
+    
+    .header3 { width: 100%; }
+    .header3 .content { width:100%; float: left; }
+    .header3 table { width: 100%; }
+    .header3 table td:first-child { width: 49px !important; padding: 0px !important; }
+    .header3 img.logo-mob { max-width: 49px; padding: 0 15px !important;  }
+    .header3 animacja. img.nim { max-width: 100%;  }
+
+    .header3 span { font-size: 18px !important; letter-spacing: normal !important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+    
+     .kontener { width:100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; padding-top: 0px; }
+     .lewo { width:100% !important; padding-left: 0px !important; overflow: hidden; }
+     .lewo .menu { margin: 20px 0; }
+     .lewo .menu .picture{ width:50px !important;  height: auto !important;  vertical-align: middle !important; padding-bottom: 20px !important;}
+     .lewo .menu .picture a { display: inline-block; }
+     .lewo .menu .picture img { width: 50px; max-width: 50px; }
+     .lewo .menu .text{ width: calc(100% - 50px) !important; padding: 0px !important; padding-left: 15px !important; vertical-align: middle !important;padding-bottom: 20px !important;}
+     .lewo .menu .text a span { font-size: 16px !important; letter-spacing: normal !important; }
+     .lewo .news { margin-bottom: 0; line-height: 1.5 !important; }
+     .lewo .news span { line-height: 1.5 !important; }
+     
+     .prawo { width:100% !important; padding-left: 0px !important; margin-left: 0px !important; }
+     .menu2 { width: 100%; width: 100%; background: #fff; margin-top: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     .menu2 a {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%;}
+     
+     .tagi { width: 100% !important; }
+     
+     .stopka { width: 100% !important; text-align: center; }
+     
+     .formularz .b1 { width: 100%; }
+     .formularz .b2 { width: 100%; margin: 0px;  }
+     .formularz .pozycja { width: 100%; }
+     .formularz .input { width: 100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; height: 35px; }
+     .formularz .textarea { width: 100% !important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; min-width: 1px; max-width: 100%; }
+     .formularz .alert { width: 100%;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     #regulaminek { width:100% !important;-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+     
+     #on_zdjecia table { display: block; width: 100%; float: left; text-align: center; }
+     #on_zdjecia table tr { display: inline; }
+     #on_zdjecia table td { display: inline-block; width: calc(33.3% - 10px) !important; height: auto !important; }
+     #on_zdjecia .kolo_a { width: auto; height: auto; margin: 0px; padding: 5px; }
+     #on_zdjecia .kolo_a img { margin: 0px; border-radius: 150px; }
+     
+     .gallery-box { width: 100%; float: left; display: block; }
+     .gallery-box tr { display: block; width: 100%; float: left; }
+     .gallery-box tbody { display: block; width: 100%; float: left; }
+     .gallery-box tr > td { display: block; width: 33% !important; float: left;  }
+     .gallery-box table { margin: auto !important; width: 100% !important; display: block; float: left; height: auto !important; margin-bottom: 20px !important;}
+     .gallery-box table tr { display: block; width: 100%; float: left; }
+     .gallery-box table tr > td { display: block; width: 100% !important; float: left; height: auto !important; }
+     .gallery-box .kolo_a { width: auto; height: auto; margin: 0px; }
+     .gallery-box .kolo_a img { margin: 0px; border-radius: 50%; }
+     
+     .lb-outerContainer { width:100% !important; height: auto !important; background: #fff; min-height: 60px; }
+     #lightboxOverlay { width:100% !important; }
+     .lb-dataContainer { width:100% !important; }
+}
+
+@media (min-width: 479px) and (max-width:767px)
+{
+    .header3 img.logo-mob { max-width: 69px; }
+    .header3 span { font-size: 24px !important;}
+
+    .header3 #on_zdjecia2 img { width: calc(33% - 30px); padding: 0 !important; margin: 15px !important; display: block; float: left;  }
+}
+@media (min-width: 320px) and (max-width:479px)
+{
+     .gallery-box { width: 100%; float: left; display: block; }
+     .gallery-box tr { display: block; width: 100%; float: left; }
+     .gallery-box tbody { display: block; width: 100%; float: left; }
+     .gallery-box tr > td { display: block; width: 100% !important; float: left;  }
+     .gallery-box table { margin: auto !important; width: 100% !important; display: block; float: left; height: auto !important; margin-bottom: 20px !important;}
+     .gallery-box table tr { display: block; width: 100%; float: left; }
+     .gallery-box table tr > td { display: block; width: 100% !important; float: left; height: auto !important; }
+     .gallery-box .kolo_a { width: auto; height: auto; margin: 0px; }
+     .gallery-box .kolo_a img { margin: 0px; border-radius: 50%; }
+
+    .header3 #on_zdjecia2 img { width: calc(50% - 30px); padding: 0 !important; margin: 15px !important; display: block; float: left;  }
+}
