@@ -1,0 +1,30 @@
+body {
+            font-family: Arial, sans-serif;
+            color: #2e2e2e;
+        }
+        .logo-img {
+            max-width: 150px;
+            height: auto;
+        }
+        .atelier-title {
+            font-style: italic;
+            letter-spacing: 2px;
+        }
+        .main-menu a {
+            font-size: 1.5rem;
+            font-style: italic;
+            letter-spacing: 5px;
+            color: #2e2e2e;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a .atelier-title:hover, .main-menu a:hover {
+            color: #f29838!important; /* Efekt hover z Twojej strony */
+        }
+        .menu-icon {
+            width: 80px;
+            height: 80px;
+        }
+        .footer {
+            font-style: italic;
+        }
